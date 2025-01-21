@@ -1,5 +1,5 @@
 //Selection All Elements in Dom
-
+const links = document.querySelectorAll(".nav-link");
 const tabs = document.querySelectorAll(".tab");
 const panels = document.querySelectorAll(".panel");
 

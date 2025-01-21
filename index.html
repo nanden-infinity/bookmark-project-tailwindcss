@@ -14,7 +14,7 @@
   <title>Bookmark Website</title>
 </head>
 
-<body class="overflow-x-hidden">
+<body class="overflow-x-hidden mb-96">
 
   <nav class="container relative mx-auto p-6">
     <!-- Flex Container for Nav Items  -->
@@ -27,9 +27,9 @@
 
       <!-- Menu Items -->
       <div class="hidden items-center space-x-10 uppercase text-grayishBlue md:flex font-semibold">
-        <a href="#features" class="-tracking-widest hover:text-softRed">Features</a>
-        <a href="#download" class="-tracking-widest hover:text-softRed">Download</a>
-        <a href="#faq" class="-tracking-widest hover:text-softRed">Faq</a>
+        <a href="#features" class="-tracking-widest hover:text-softRed nav-link">Features</a>
+        <a href="#donwload" class="-tracking-widest hover:text-softRed nav-link">Download</a>
+        <a href="#faq" class="-tracking-widest hover:text-softRed nav-link">Faq</a>
 
         <a href=""
           class="px-8 py-2 text-white bg-softRed border-2 border-softRed rounded-lg shadow-md hover:text-softRed hover:bg-white duration-150 transition-all">LOGIN</a>
@@ -238,9 +238,9 @@
           <img src="images/logo-firefox.svg" alt="">
         </div>
         <!-- Text -->
-        <h5 class="pt-6 text-xl font-bold">Add to Chrome</h5>
+        <h5 class="pt-6 text-xl font-bold">Add to Firefox</h5>
         <p class="text-gray-400">
-          Minimum version 62
+          Minimum Version 55
         </p>
 
         <!-- Dots -->
@@ -258,15 +258,155 @@
           <img src="images/logo-opera.svg" alt="">
         </div>
         <!-- Text -->
-        <h5 class="pt-6 text-xl font-bold">Add to Chrome</h5>
+        <h5 class="pt-6 text-xl font-bold">Add to Opera</h5>
         <p class="text-gray-400">
-          Minimum version 62
+          Minimum Version 46
         </p>
 
         <!-- Dots -->
         <div class="bg-dots bg-repeat-x px-6 pt-6 capitalize"><a href=""
             class="block w-full px-6 py-3 text-sm font-semibold text-white border-2 bg-softBlue rounded shadow-md border-softBlue md:text-base hover:bg-white hover:text-softBlue duration-150 transition-all">More
             Info</a></div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- FAQ Heading -->
+
+  <section id="faq">
+    <div class="container mx-auto">
+      <h2 class="mb-6 text-3xl font-semibold text-center md:text-4xl">
+        Frequently Asked Questions
+      </h2>
+      <p class="max-w-lg px-6 mx-auto text-center text-grayishBlue">
+        Here are some of our FAQs. If you have any other questions you'd like answered please feel free to email us.
+      </p>
+    </div>
+  </section>
+  <!--  FAQ Accordion-->
+  <section id="faq-accordion">
+    <!-- Main Container -->
+    <div class="container mx-auto px-6 mb-32">
+      <!-- Accordion Container -->
+      <div class="max-w-2xl m-8 mx-auto overflow-hidden">
+        <!-- Tab 1 -->
+        <div class="py-1 border-b outline-none group" tabindex="1">
+          <!-- Tab Flex Container -->
+          <div
+            class="flex items-center justify-between py-3 text-gray-500 transition duration-500 cursor-pointer group ease">
+            <!-- Tab Title -->
+            <div class="transition duration-500 ease group-hover:text-red-500">
+             <h5>Was ist Bookmark?</h5>
+            </div>
+            <!-- Arrow -->
+            <div class="transition duration-500 ease group-focus:-rotate-180 group-focus:text-red-500">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                stroke="currentColor" class="size-6">
+                <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
+              </svg>
+
+            </div>
+          </div>
+
+           <!-- Tab Inner Conent -->
+        <div class="overflow-hidden transition duration-500 group-focus:max-h-screen max-h-0 ease">
+          <p class="py-2 text-justify text-gray-400">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, quae. Lorem ipsum dolor sit amet
+            consectetur adipisicing elit. Repellendus, quae.
+            amet consectetur adipisicing elit. Repellendus, quae. Lorem ipsum dolor sit amet
+            consectetur adipisicing elit. Repellendus, quae.
+          </p>
+        </div>
+        </div>
+       
+
+        <!-- Tab 2 -->
+        <div class="py-1 border-b outline-none group" tabindex="2">
+          <!-- Tab Flex Container -->
+          <div
+            class="flex items-center justify-between py-3 text-gray-500 transition duration-500 cursor-pointer group ease">
+            <!-- Tab Title -->
+            <div class="transition duration-500 ease group-hover:text-red-500">
+           <h5>How can I request a new browser?</h5> 
+            </div>
+            <!-- Arrow -->
+            <div class="transition duration-500 ease group-focus:-rotate-180 group-focus:text-red-500">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                stroke="currentColor" class="size-6">
+                <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
+              </svg>
+
+            </div>
+          </div>
+
+           <!-- Tab Inner Conent -->
+        <div class="overflow-hidden transition duration-500 group-focus:max-h-screen max-h-0 ease">
+          <p class="py-2 text-justify text-gray-400">
+         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Amet non, obcaecati quam ducimus quisquam recusandae sint alias similique a officiis iusto eaque? Quasi earum veritatis modi, eius fugiat dolorem ratione nostrum, consectetur eum nemo esse magni natus quo tenetur rerum?
+          </p>
+        </div>
+        </div>
+
+
+
+        <!-- Tab 3 -->
+        <div class="py-1 border-b outline-none group" tabindex="3">
+          <!-- Tab Flex Container -->
+          <div
+            class="flex items-center justify-between py-3 text-gray-500 transition duration-500 cursor-pointer group ease">
+            <!-- Tab Title -->
+            <div class="transition duration-500 ease group-hover:text-red-500">
+           <h5> Is ther a mobile app?</h5> 
+            </div>
+            <!-- Arrow -->
+            <div class="transition duration-500 ease group-focus:-rotate-180 group-focus:text-red-500">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                stroke="currentColor" class="size-6">
+                <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
+              </svg>
+
+            </div>
+          </div>
+
+           <!-- Tab Inner Conent -->
+        <div class="overflow-hidden transition duration-500 group-focus:max-h-screen max-h-0 ease">
+          <p class="py-2 text-justify text-gray-400">
+         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Amet non, obcaecati quam ducimus quisquam recusandae sint alias similique a officiis iusto eaque? Quasi earum veritatis modi, eius fugiat dolorem ratione nostrum, consectetur eum nemo esse magni natus quo tenetur rerum?
+          </p>
+        </div>
+        </div>
+
+
+
+        <!-- Tab 2 -->
+        <div class="py-1 border-b outline-none group" tabindex="2">
+          <!-- Tab Flex Container -->
+          <div
+            class="flex items-center justify-between py-3 text-gray-500 transition duration-500 cursor-pointer group ease">
+            <!-- Tab Title -->
+            <div class="transition duration-500 ease group-hover:text-red-500">
+           <h5> What about other Chromium browsers</h5> 
+            </div>
+            <!-- Arrow -->
+            <div class="transition duration-500 ease group-focus:-rotate-180 group-focus:text-red-500">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                stroke="currentColor" class="size-6">
+                <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
+              </svg>
+
+            </div>
+          </div>
+
+           <!-- Tab Inner Conent -->
+        <div class="overflow-hidden transition duration-500 group-focus:max-h-screen max-h-0 ease">
+          <p class="py-2 text-justify text-gray-400">
+         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Amet non, obcaecati quam ducimus quisquam recusandae sint alias similique a officiis iusto eaque? Quasi earum veritatis modi, eius fugiat dolorem ratione nostrum, consectetur eum nemo esse magni natus quo tenetur rerum?
+          </p>
+        </div>
+        </div>
+
+        
       </div>
     </div>
   </section>
