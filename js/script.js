@@ -12,7 +12,7 @@ function onTabClick(event) {
       "md:border-b-0"
     );
   });
-
+// document.querySelector('.tab')?.classList.remove("border-softRed", "border-b-4", "md:border-b-0");
   // Hide All Panels
   panels.forEach((panel) => panel.classList.add("hidden"));
 
