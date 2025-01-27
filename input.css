@@ -17,6 +17,14 @@
     @apply absolute rounded-r-full top-60 bg-softRed;
   }
 }
+
+@media (max-width: 455px) {
+  form {
+    padding: 20px !important;
+    width: 370px !important;
+  }
+}
+
 @media (max-width: 375px) {
   /*-- Buttons Continer --*/
 
@@ -32,6 +40,16 @@
     width: 100%;
     padding-left: 0.4rem;
     padding-right: 0.4rem;
+  }
+  form {
+    padding: 10px !important;
+    width: 280px !important;
+  }
+  form input {
+    padding: 10px;
+  }
+  form .close {
+    background: #fb4;
   }
 }
 

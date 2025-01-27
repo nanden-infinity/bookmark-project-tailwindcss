@@ -32,7 +32,7 @@
         <a href="#faq" class="-tracking-widest hover:text-softRed nav-link">Faq</a>
 
         <a href=""
-          class="px-8 py-2 text-white bg-softRed border-2 border-softRed rounded-lg shadow-md hover:text-softRed hover:bg-white duration-150 transition-all">LOGIN</a>
+          class="btnLogin px-8 py-2 text-white bg-softRed border-2 border-softRed rounded-lg shadow-md hover:text-softRed hover:bg-white duration-150 transition-all">LOGIN</a>
       </div>
       <!-- Hamburger Button -->
       <button aria-label="button-menu" id="menu-btn" class="z-30 block md:hidden focus:outline-none hamburger ">
@@ -499,6 +499,24 @@
       </div>
     </div>
   </footer>
+  <div class="modal  mx-auto fixed flex hidden bg-white z-50 justify-center items-center flex-col inset-0 min-h-screen">
+    <form action="#" class="shadow-xl relative gap-2  border flex flex-col items-center max-w-sm w-full h-96 p-x8 p-12">
+      <button
+        class="absolute close border-4 border-white h-10 w-10 bg-softRed rounded-full -top-4 font-extrabold text-white -right-4">&times;</button>
+      <h1 class="text-3xl font-semibold">Login</h1>
+      <label for="email" class="  block w-full">Email</label>
+      <input type="email"
+        class="border-2 border-softBlue/30 block w-full px-4 py-3 rounded-md outline-none focus:ring-1 focus:ring-softBlue"
+        name="email" id="email" placeholder="nande@gmail.com">
+      <label for="senha" class="block w-full">Senha</label>
+      <input type="password"
+        class="border-2 border-softBlue/30 block w-full px-4 py-3 rounded-md outline-none focus:ring-1 focus:ring-softBlue"
+        name="senha" id="senha" placeholder="********">
+      <input type="submit"
+        class="cursor-pointer hover:bg-opacity-95 block bg-softRed text-white rounded-md outline-none focus:right-2 focus:ring-softBlue w-full px-4 py-3 mt-4"
+        value="Entrar">
+    </form>
+  </div>
 </body>
 
 </html>
